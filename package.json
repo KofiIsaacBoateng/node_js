@@ -1,15 +1,17 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "kcode",
-  "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.2.3",
-    "lodash": "^4.17.21"
-  }
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "author": "kcode",
+    "license": "ISC",
+    "dependencies": {
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    }
 }
